@@ -2,7 +2,6 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 
-
 uri = "mongodb+srv://shahram:gBKeebgu4JnCXtri@cluster0.0ovspnv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 
@@ -16,5 +15,5 @@ try:
 except Exception as e:
     print(e)
 
-db = client.todo_database    
-collection_name = db["todo_collection"]    
+db = client.todo_database
+collection_name = db["todo_collection"]
