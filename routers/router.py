@@ -20,3 +20,10 @@ async def create_todo(todo: Todo):
     collection_name.insert_one(dict(todo))
 
 
+@MyRouter.put("/{id}")
+async def update_todo(id: str, todo: Todo):
+    collection_name.find_one_and_update(
+        {"_id": ObjectId(id)},
+        {"$set": dict(todo)},
+        return_document=True)
+
