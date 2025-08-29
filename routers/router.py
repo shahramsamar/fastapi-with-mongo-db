@@ -14,3 +14,9 @@ async def get_todos_list():
     # todos = list_serial(collection_name.find().limit(10))
     return todos
 
+
+@MyRouter.post("/")
+async def create_todo(todo: Todo):
+    collection_name.insert_one(dict(todo))
+
+
