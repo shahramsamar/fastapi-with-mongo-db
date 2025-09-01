@@ -10,13 +10,29 @@ A clean, fast, and scalable backend starter built with [FastAPI](https://fastapi
 - 🍃 MongoDB integration using the async `motor` driver  
 - 🧱 Modular folder structure for scalability  
 - 🔁 Full CRUD operations implemented  
-- 🐳 Docker support for easy deployment and development  
 
 ---
 
 ## 📁 Project Structure
 
-fastapi-with-mongo-db/ │ ├── app/ │ ├── models/ # Data models │ ├── routes/ # API routes │ ├── services/ # Business logic │ └── main.py # Entry point │ ├── requirements.txt # Dependencies └── README.md # This file
+fastapi-with-mongo-db/
+│ ├── app/ 
+│ 
+├── models/
+# Data models 
+│ 
+├── routes/
+# API routes
+│
+├── services/
+# Business logic
+│└── main.py 
+# Entry point
+│ 
+├── requirements.txt 
+# Dependencies 
+└── README.md 
+# This file
 
 ---
 
