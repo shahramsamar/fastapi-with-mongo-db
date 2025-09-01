@@ -26,7 +26,7 @@ fastapi-with-mongo-db/ │ ├── app/ │ ├── models/ # Data models �
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ### Run the project
@@ -40,11 +40,17 @@ Swagger UI → http://localhost:8000/docs
 
 ReDoc → http://localhost:8000/redoc
 
+---
+
 # 👨‍💻 Author
 Built with ❤️ by Shahram Samar
 
+---
+
 # 🤝 Contributing
 Feel free to fork the repo, open issues, or submit pull requests. Contributions are welcome and appreciated!
+
+---
 
 # 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
